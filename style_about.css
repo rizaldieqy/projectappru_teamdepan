@@ -6,7 +6,6 @@
     
 }
 #konten_2{
- 
     background-color:#fff;
 }
 .konten22 .card{
@@ -18,21 +17,32 @@
         margin-top: -20px;
         /* border-radius: 20px; */
 }
-#konten3{
+ #konten3{
     font-family: arial black;
     background: url(img/home-banner-bg.jpg);
     background-repeat: no-repeat;
     background-position-y: 5%;
     background-position-x:  700px;
     background-size: 500px;
-    
+    /* height: 100vh;  */
 }
 #konten3_card .card{
     border:none;
     box-shadow: 1px 2px 10px 4px #ddd;
-    /* height: 200px; */
-    font-family: arial black;
+     /* height: 200px;  */
+     font-family: arial black; 
 }
-#konten3_card .card .small{
+ #konten3_card .card .small{
     font-size: 13px;
 }
+
+#konten5{
+    height: 100vh;
+}
+
+
+.btnkonten5{
+    background-color: rgb(76, 23, 173);
+    color: #fff;
+    font-size: 16px;
+} 
