@@ -1,9 +1,20 @@
+body{
+    background-color:rgb(248, 248, 248);
+}
 #konten1{
-    height: 550px;
     background:url(img/home-banner-bg.jpg);
     background-size: 118%;
     background-repeat: no-repeat;
-    
+    height: 100vh;
+    margin-top: -50px;
+}
+#loncat h3 strong{
+    margin-top: 250px;
+    position: absolute;
+}
+#loncat p{
+    margin-top: 300px;
+    position:absolute;
 }
 #konten_2{
     background-color:#fff;
@@ -14,12 +25,10 @@
 }
 .konten22{
         box-shadow: 3px 5px 15px 0px #000;
-        margin-top: -20px;
-        /* border-radius: 20px; */
 }
  #konten3{
     font-family: arial black;
-    background: url(img/home-banner-bg.jpg);
+    /* background: url(img/home-banner-bg.jpg); */
     background-repeat: no-repeat;
     background-position-y: 5%;
     background-position-x:  700px;
